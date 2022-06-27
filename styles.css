@@ -25,8 +25,8 @@
         }
         .links a {
           color: #fff;
-          font-size: 25px;
-          line-height: 28px;
+          font-size: 24px;
+          line-height: 26px;
           margin: 0 16px;
           padding-bottom: 3px;
           text-decoration: none;
@@ -51,14 +51,14 @@
         }
         #wrapper h1 {
           color: #fff;
-          font-size: 40px;
-          line-height: 50px;
+          font-size: 34px;
+          line-height: 28px;
           font-weight: bold;
         }
         #wrapper h3 {
           color: #fff;
-          font-size: 23px;
-          line-height: 30px;
+          font-size: 22px;
+          line-height: 32px;
           font-weight: normal;
           margin-top: 10px;
           opacity: 0.8;
@@ -67,8 +67,8 @@
           color: #fff;
           max-width: 500px;
           margin: 30px auto;
-          font-size: 22px;
-          line-height: 32px;
+          font-size: 24px;
+          line-height: 34px;
           }
           #links-footer a {
             color: #fff;
@@ -79,7 +79,7 @@
 /*=== SONGS ===*/
 
 .songs {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -88,16 +88,19 @@
 
 .song {
   background-color: var(--color-details);
+  display: grid;
+  align-items: center;
 }
 
 .song-image  img{
-width: 300px;
+width: 350px;
 }
 
 .song-content, 
 .song-info {
 padding: 24px;
 font-family: 'Oleo' 'Script Swash Caps';
+color: #fff;
 }
 .song-info {
   display: grid;
